@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39207D8226DE319500698236 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39207D8126DE319500698236 /* main.cpp */; };
+		39207D8D26DE35C200698236 /* food_delivery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39207D8B26DE35C200698236 /* food_delivery.cpp */; };
+		39207D9026DE64E800698236 /* mezzi_di_consegna.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39207D8E26DE64E800698236 /* mezzi_di_consegna.cpp */; };
+		39207D9326DE661200698236 /* Motorini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39207D9126DE661200698236 /* Motorini.cpp */; };
+		39207D9626DE685E00698236 /* Auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39207D9426DE685E00698236 /* Auto.cpp */; };
+		39207D9926DE696300698236 /* Ristorante.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39207D9726DE696300698236 /* Ristorante.cpp */; };
+		39207D9C26DE6DCB00698236 /* Rosticceria.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39207D9A26DE6DCB00698236 /* Rosticceria.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39207D7C26DE319500698236 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39207D7E26DE319500698236 /* Food_delivery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Food_delivery; sourceTree = BUILT_PRODUCTS_DIR; };
+		39207D8126DE319500698236 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39207D8B26DE35C200698236 /* food_delivery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = food_delivery.cpp; sourceTree = "<group>"; };
+		39207D8C26DE35C200698236 /* food_delivery.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = food_delivery.hpp; sourceTree = "<group>"; };
+		39207D8E26DE64E800698236 /* mezzi_di_consegna.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mezzi_di_consegna.cpp; sourceTree = "<group>"; };
+		39207D8F26DE64E800698236 /* mezzi_di_consegna.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mezzi_di_consegna.hpp; sourceTree = "<group>"; };
+		39207D9126DE661200698236 /* Motorini.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Motorini.cpp; sourceTree = "<group>"; };
+		39207D9226DE661200698236 /* Motorini.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Motorini.hpp; sourceTree = "<group>"; };
+		39207D9426DE685E00698236 /* Auto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Auto.cpp; sourceTree = "<group>"; };
+		39207D9526DE685E00698236 /* Auto.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Auto.hpp; sourceTree = "<group>"; };
+		39207D9726DE696300698236 /* Ristorante.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ristorante.cpp; sourceTree = "<group>"; };
+		39207D9826DE696300698236 /* Ristorante.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ristorante.hpp; sourceTree = "<group>"; };
+		39207D9A26DE6DCB00698236 /* Rosticceria.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rosticceria.cpp; sourceTree = "<group>"; };
+		39207D9B26DE6DCB00698236 /* Rosticceria.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rosticceria.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39207D7B26DE319500698236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39207D7526DE319500698236 = {
+			isa = PBXGroup;
+			children = (
+				39207D8026DE319500698236 /* Food_delivery */,
+				39207D7F26DE319500698236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39207D7F26DE319500698236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39207D7E26DE319500698236 /* Food_delivery */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39207D8026DE319500698236 /* Food_delivery */ = {
+			isa = PBXGroup;
+			children = (
+				39207D8126DE319500698236 /* main.cpp */,
+				39207D8B26DE35C200698236 /* food_delivery.cpp */,
+				39207D8C26DE35C200698236 /* food_delivery.hpp */,
+				39207D9126DE661200698236 /* Motorini.cpp */,
+				39207D9426DE685E00698236 /* Auto.cpp */,
+				39207D9526DE685E00698236 /* Auto.hpp */,
+				39207D9726DE696300698236 /* Ristorante.cpp */,
+				39207D9A26DE6DCB00698236 /* Rosticceria.cpp */,
+				39207D9B26DE6DCB00698236 /* Rosticceria.hpp */,
+				39207D9826DE696300698236 /* Ristorante.hpp */,
+				39207D9226DE661200698236 /* Motorini.hpp */,
+				39207D8F26DE64E800698236 /* mezzi_di_consegna.hpp */,
+				39207D8E26DE64E800698236 /* mezzi_di_consegna.cpp */,
+			);
+			path = Food_delivery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39207D7D26DE319500698236 /* Food_delivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39207D8526DE319500698236 /* Build configuration list for PBXNativeTarget "Food_delivery" */;
+			buildPhases = (
+				39207D7A26DE319500698236 /* Sources */,
+				39207D7B26DE319500698236 /* Frameworks */,
+				39207D7C26DE319500698236 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Food_delivery;
+			productName = Food_delivery;
+			productReference = 39207D7E26DE319500698236 /* Food_delivery */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39207D7626DE319500698236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					39207D7D26DE319500698236 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 39207D7926DE319500698236 /* Build configuration list for PBXProject "Food_delivery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39207D7526DE319500698236;
+			productRefGroup = 39207D7F26DE319500698236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39207D7D26DE319500698236 /* Food_delivery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39207D7A26DE319500698236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39207D8226DE319500698236 /* main.cpp in Sources */,
+				39207D8D26DE35C200698236 /* food_delivery.cpp in Sources */,
+				39207D9926DE696300698236 /* Ristorante.cpp in Sources */,
+				39207D9C26DE6DCB00698236 /* Rosticceria.cpp in Sources */,
+				39207D9326DE661200698236 /* Motorini.cpp in Sources */,
+				39207D9026DE64E800698236 /* mezzi_di_consegna.cpp in Sources */,
+				39207D9626DE685E00698236 /* Auto.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39207D8326DE319500698236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		39207D8426DE319500698236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		39207D8626DE319500698236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39207D8726DE319500698236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39207D7926DE319500698236 /* Build configuration list for PBXProject "Food_delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39207D8326DE319500698236 /* Debug */,
+				39207D8426DE319500698236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39207D8526DE319500698236 /* Build configuration list for PBXNativeTarget "Food_delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39207D8626DE319500698236 /* Debug */,
+				39207D8726DE319500698236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39207D7626DE319500698236 /* Project object */;
+}

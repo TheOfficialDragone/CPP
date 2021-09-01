@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		399F5B0A2653B990001AB4B4 /* banca_online.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 399F5B082653B990001AB4B4 /* banca_online.cpp */; };
+		399F5B0D26540ACA001AB4B4 /* Banca_tradizionale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 399F5B0B26540ACA001AB4B4 /* Banca_tradizionale.cpp */; };
+		399F5B0F26540E02001AB4B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 399F5B0E26540E02001AB4B4 /* main.cpp */; };
+		39D6D3EC2654105C00452CB9 /* Conto_bancario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D6D3EA2654105C00452CB9 /* Conto_bancario.cpp */; };
+		39D6D3EF2654132400452CB9 /* conto_corrente.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D6D3ED2654132400452CB9 /* conto_corrente.cpp */; };
+		39D6D3F3265428F900452CB9 /* Conto_deposito.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D6D3F1265428F900452CB9 /* Conto_deposito.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		399F5AF92653B727001AB4B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		399F5AFB2653B727001AB4B4 /* Banca */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Banca; sourceTree = BUILT_PRODUCTS_DIR; };
+		399F5B062653B779001AB4B4 /* banca.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = banca.hpp; sourceTree = "<group>"; };
+		399F5B082653B990001AB4B4 /* banca_online.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = banca_online.cpp; sourceTree = "<group>"; };
+		399F5B092653B990001AB4B4 /* banca_online.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = banca_online.hpp; sourceTree = "<group>"; };
+		399F5B0B26540ACA001AB4B4 /* Banca_tradizionale.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Banca_tradizionale.cpp; sourceTree = "<group>"; };
+		399F5B0C26540ACA001AB4B4 /* Banca_tradizionale.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Banca_tradizionale.hpp; sourceTree = "<group>"; };
+		399F5B0E26540E02001AB4B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39D6D3EA2654105C00452CB9 /* Conto_bancario.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Conto_bancario.cpp; sourceTree = "<group>"; };
+		39D6D3EB2654105C00452CB9 /* Conto_bancario.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Conto_bancario.hpp; sourceTree = "<group>"; };
+		39D6D3ED2654132400452CB9 /* conto_corrente.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = conto_corrente.cpp; sourceTree = "<group>"; };
+		39D6D3EE2654132400452CB9 /* conto_corrente.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = conto_corrente.hpp; sourceTree = "<group>"; };
+		39D6D3F1265428F900452CB9 /* Conto_deposito.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Conto_deposito.cpp; sourceTree = "<group>"; };
+		39D6D3F2265428F900452CB9 /* Conto_deposito.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Conto_deposito.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		399F5AF82653B727001AB4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		399F5AF22653B727001AB4B4 = {
+			isa = PBXGroup;
+			children = (
+				399F5AFD2653B727001AB4B4 /* Banca */,
+				399F5AFC2653B727001AB4B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		399F5AFC2653B727001AB4B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399F5AFB2653B727001AB4B4 /* Banca */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		399F5AFD2653B727001AB4B4 /* Banca */ = {
+			isa = PBXGroup;
+			children = (
+				399F5B0E26540E02001AB4B4 /* main.cpp */,
+				399F5B082653B990001AB4B4 /* banca_online.cpp */,
+				399F5B0B26540ACA001AB4B4 /* Banca_tradizionale.cpp */,
+				39D6D3EA2654105C00452CB9 /* Conto_bancario.cpp */,
+				39D6D3ED2654132400452CB9 /* conto_corrente.cpp */,
+				39D6D3F1265428F900452CB9 /* Conto_deposito.cpp */,
+				39D6D3F2265428F900452CB9 /* Conto_deposito.hpp */,
+				399F5B092653B990001AB4B4 /* banca_online.hpp */,
+				399F5B0C26540ACA001AB4B4 /* Banca_tradizionale.hpp */,
+				399F5B062653B779001AB4B4 /* banca.hpp */,
+				39D6D3EB2654105C00452CB9 /* Conto_bancario.hpp */,
+				39D6D3EE2654132400452CB9 /* conto_corrente.hpp */,
+			);
+			path = Banca;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		399F5AFA2653B727001AB4B4 /* Banca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399F5B022653B727001AB4B4 /* Build configuration list for PBXNativeTarget "Banca" */;
+			buildPhases = (
+				399F5AF72653B727001AB4B4 /* Sources */,
+				399F5AF82653B727001AB4B4 /* Frameworks */,
+				399F5AF92653B727001AB4B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Banca;
+			productName = Banca;
+			productReference = 399F5AFB2653B727001AB4B4 /* Banca */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		399F5AF32653B727001AB4B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					399F5AFA2653B727001AB4B4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 399F5AF62653B727001AB4B4 /* Build configuration list for PBXProject "Banca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 399F5AF22653B727001AB4B4;
+			productRefGroup = 399F5AFC2653B727001AB4B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				399F5AFA2653B727001AB4B4 /* Banca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		399F5AF72653B727001AB4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399F5B0D26540ACA001AB4B4 /* Banca_tradizionale.cpp in Sources */,
+				39D6D3F3265428F900452CB9 /* Conto_deposito.cpp in Sources */,
+				399F5B0F26540E02001AB4B4 /* main.cpp in Sources */,
+				39D6D3EF2654132400452CB9 /* conto_corrente.cpp in Sources */,
+				399F5B0A2653B990001AB4B4 /* banca_online.cpp in Sources */,
+				39D6D3EC2654105C00452CB9 /* Conto_bancario.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		399F5B002653B727001AB4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		399F5B012653B727001AB4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		399F5B032653B727001AB4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		399F5B042653B727001AB4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399F5AF62653B727001AB4B4 /* Build configuration list for PBXProject "Banca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399F5B002653B727001AB4B4 /* Debug */,
+				399F5B012653B727001AB4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399F5B022653B727001AB4B4 /* Build configuration list for PBXNativeTarget "Banca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399F5B032653B727001AB4B4 /* Debug */,
+				399F5B042653B727001AB4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 399F5AF32653B727001AB4B4 /* Project object */;
+}

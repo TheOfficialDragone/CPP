@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39D829D626AEFCC0008F2AAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D829D526AEFCC0008F2AAB /* main.cpp */; };
+		39D829DE26AEFD9D008F2AAB /* Giocatore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D829DC26AEFD9D008F2AAB /* Giocatore.cpp */; };
+		39D829E126AF0608008F2AAB /* Oggetto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D829DF26AF0608008F2AAB /* Oggetto.cpp */; };
+		39D829E426AF0825008F2AAB /* Gioiello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D829E226AF0825008F2AAB /* Gioiello.cpp */; };
+		39D829E726AF1767008F2AAB /* Trappola.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D829E526AF1767008F2AAB /* Trappola.cpp */; };
+		39D829EA26AF29EA008F2AAB /* Stanza.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D829E826AF29EA008F2AAB /* Stanza.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39D829D026AEFCC0008F2AAB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39D829D226AEFCC0008F2AAB /* Labirinto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Labirinto; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D829D526AEFCC0008F2AAB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39D829DC26AEFD9D008F2AAB /* Giocatore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Giocatore.cpp; sourceTree = "<group>"; };
+		39D829DD26AEFD9D008F2AAB /* Giocatore.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Giocatore.hpp; sourceTree = "<group>"; };
+		39D829DF26AF0608008F2AAB /* Oggetto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Oggetto.cpp; sourceTree = "<group>"; };
+		39D829E026AF0608008F2AAB /* Oggetto.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Oggetto.hpp; sourceTree = "<group>"; };
+		39D829E226AF0825008F2AAB /* Gioiello.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gioiello.cpp; sourceTree = "<group>"; };
+		39D829E326AF0825008F2AAB /* Gioiello.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gioiello.hpp; sourceTree = "<group>"; };
+		39D829E526AF1767008F2AAB /* Trappola.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trappola.cpp; sourceTree = "<group>"; };
+		39D829E626AF1767008F2AAB /* Trappola.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Trappola.hpp; sourceTree = "<group>"; };
+		39D829E826AF29EA008F2AAB /* Stanza.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stanza.cpp; sourceTree = "<group>"; };
+		39D829E926AF29EA008F2AAB /* Stanza.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stanza.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D829CF26AEFCC0008F2AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D829C926AEFCC0008F2AAB = {
+			isa = PBXGroup;
+			children = (
+				39D829D426AEFCC0008F2AAB /* Labirinto */,
+				39D829D326AEFCC0008F2AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39D829D326AEFCC0008F2AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D829D226AEFCC0008F2AAB /* Labirinto */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D829D426AEFCC0008F2AAB /* Labirinto */ = {
+			isa = PBXGroup;
+			children = (
+				39D829DC26AEFD9D008F2AAB /* Giocatore.cpp */,
+				39D829E226AF0825008F2AAB /* Gioiello.cpp */,
+				39D829D526AEFCC0008F2AAB /* main.cpp */,
+				39D829DF26AF0608008F2AAB /* Oggetto.cpp */,
+				39D829E826AF29EA008F2AAB /* Stanza.cpp */,
+				39D829E526AF1767008F2AAB /* Trappola.cpp */,
+				39D829DD26AEFD9D008F2AAB /* Giocatore.hpp */,
+				39D829E326AF0825008F2AAB /* Gioiello.hpp */,
+				39D829E026AF0608008F2AAB /* Oggetto.hpp */,
+				39D829E926AF29EA008F2AAB /* Stanza.hpp */,
+				39D829E626AF1767008F2AAB /* Trappola.hpp */,
+			);
+			path = Labirinto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39D829D126AEFCC0008F2AAB /* Labirinto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D829D926AEFCC0008F2AAB /* Build configuration list for PBXNativeTarget "Labirinto" */;
+			buildPhases = (
+				39D829CE26AEFCC0008F2AAB /* Sources */,
+				39D829CF26AEFCC0008F2AAB /* Frameworks */,
+				39D829D026AEFCC0008F2AAB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Labirinto;
+			productName = Labirinto;
+			productReference = 39D829D226AEFCC0008F2AAB /* Labirinto */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D829CA26AEFCC0008F2AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					39D829D126AEFCC0008F2AAB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 39D829CD26AEFCC0008F2AAB /* Build configuration list for PBXProject "Labirinto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39D829C926AEFCC0008F2AAB;
+			productRefGroup = 39D829D326AEFCC0008F2AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D829D126AEFCC0008F2AAB /* Labirinto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D829CE26AEFCC0008F2AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D829D626AEFCC0008F2AAB /* main.cpp in Sources */,
+				39D829E426AF0825008F2AAB /* Gioiello.cpp in Sources */,
+				39D829EA26AF29EA008F2AAB /* Stanza.cpp in Sources */,
+				39D829DE26AEFD9D008F2AAB /* Giocatore.cpp in Sources */,
+				39D829E726AF1767008F2AAB /* Trappola.cpp in Sources */,
+				39D829E126AF0608008F2AAB /* Oggetto.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39D829D726AEFCC0008F2AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		39D829D826AEFCC0008F2AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		39D829DA26AEFCC0008F2AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39D829DB26AEFCC0008F2AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D829CD26AEFCC0008F2AAB /* Build configuration list for PBXProject "Labirinto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D829D726AEFCC0008F2AAB /* Debug */,
+				39D829D826AEFCC0008F2AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D829D926AEFCC0008F2AAB /* Build configuration list for PBXNativeTarget "Labirinto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D829DA26AEFCC0008F2AAB /* Debug */,
+				39D829DB26AEFCC0008F2AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D829CA26AEFCC0008F2AAB /* Project object */;
+}

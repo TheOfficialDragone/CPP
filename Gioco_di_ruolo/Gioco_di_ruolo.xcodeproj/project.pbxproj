@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39477B43266E6AB1003711AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B42266E6AB1003711AA /* main.cpp */; };
+		39477B4B266E6B06003711AA /* personaggio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B49266E6B06003711AA /* personaggio.cpp */; };
+		39477B4E266E88A7003711AA /* oggetto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B4C266E88A7003711AA /* oggetto.cpp */; };
+		39477B51266E8AE3003711AA /* mago.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B4F266E8AE3003711AA /* mago.cpp */; };
+		39477B54266FACDF003711AA /* guerriero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B52266FACDF003711AA /* guerriero.cpp */; };
+		39477B57266FAEBC003711AA /* chierico.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B55266FAEBC003711AA /* chierico.cpp */; };
+		39477B5A266FBCD8003711AA /* arma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B58266FBCD8003711AA /* arma.cpp */; };
+		39477B5D2670BA62003711AA /* pergamena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B5B2670BA62003711AA /* pergamena.cpp */; };
+		39477B602670BDD4003711AA /* cura.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39477B5E2670BDD4003711AA /* cura.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39477B3D266E6AB1003711AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39477B3F266E6AB1003711AA /* Gioco_di_ruolo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Gioco_di_ruolo; sourceTree = BUILT_PRODUCTS_DIR; };
+		39477B42266E6AB1003711AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39477B49266E6B06003711AA /* personaggio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = personaggio.cpp; sourceTree = "<group>"; };
+		39477B4A266E6B06003711AA /* personaggio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = personaggio.hpp; sourceTree = "<group>"; };
+		39477B4C266E88A7003711AA /* oggetto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = oggetto.cpp; sourceTree = "<group>"; };
+		39477B4D266E88A7003711AA /* oggetto.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = oggetto.hpp; sourceTree = "<group>"; };
+		39477B4F266E8AE3003711AA /* mago.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mago.cpp; sourceTree = "<group>"; };
+		39477B50266E8AE3003711AA /* mago.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mago.hpp; sourceTree = "<group>"; };
+		39477B52266FACDF003711AA /* guerriero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = guerriero.cpp; sourceTree = "<group>"; };
+		39477B53266FACDF003711AA /* guerriero.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = guerriero.hpp; sourceTree = "<group>"; };
+		39477B55266FAEBC003711AA /* chierico.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chierico.cpp; sourceTree = "<group>"; };
+		39477B56266FAEBC003711AA /* chierico.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = chierico.hpp; sourceTree = "<group>"; };
+		39477B58266FBCD8003711AA /* arma.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arma.cpp; sourceTree = "<group>"; };
+		39477B59266FBCD8003711AA /* arma.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = arma.hpp; sourceTree = "<group>"; };
+		39477B5B2670BA62003711AA /* pergamena.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pergamena.cpp; sourceTree = "<group>"; };
+		39477B5C2670BA62003711AA /* pergamena.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pergamena.hpp; sourceTree = "<group>"; };
+		39477B5E2670BDD4003711AA /* cura.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cura.cpp; sourceTree = "<group>"; };
+		39477B5F2670BDD4003711AA /* cura.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cura.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39477B3C266E6AB1003711AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39477B36266E6AB1003711AA = {
+			isa = PBXGroup;
+			children = (
+				39477B41266E6AB1003711AA /* Gioco_di_ruolo */,
+				39477B40266E6AB1003711AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39477B40266E6AB1003711AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39477B3F266E6AB1003711AA /* Gioco_di_ruolo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39477B41266E6AB1003711AA /* Gioco_di_ruolo */ = {
+			isa = PBXGroup;
+			children = (
+				39477B50266E8AE3003711AA /* mago.hpp */,
+				39477B4F266E8AE3003711AA /* mago.cpp */,
+				39477B52266FACDF003711AA /* guerriero.cpp */,
+				39477B55266FAEBC003711AA /* chierico.cpp */,
+				39477B56266FAEBC003711AA /* chierico.hpp */,
+				39477B53266FACDF003711AA /* guerriero.hpp */,
+				39477B42266E6AB1003711AA /* main.cpp */,
+				39477B49266E6B06003711AA /* personaggio.cpp */,
+				39477B4C266E88A7003711AA /* oggetto.cpp */,
+				39477B58266FBCD8003711AA /* arma.cpp */,
+				39477B5B2670BA62003711AA /* pergamena.cpp */,
+				39477B5C2670BA62003711AA /* pergamena.hpp */,
+				39477B59266FBCD8003711AA /* arma.hpp */,
+				39477B5E2670BDD4003711AA /* cura.cpp */,
+				39477B5F2670BDD4003711AA /* cura.hpp */,
+				39477B4D266E88A7003711AA /* oggetto.hpp */,
+				39477B4A266E6B06003711AA /* personaggio.hpp */,
+			);
+			path = Gioco_di_ruolo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39477B3E266E6AB1003711AA /* Gioco_di_ruolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39477B46266E6AB1003711AA /* Build configuration list for PBXNativeTarget "Gioco_di_ruolo" */;
+			buildPhases = (
+				39477B3B266E6AB1003711AA /* Sources */,
+				39477B3C266E6AB1003711AA /* Frameworks */,
+				39477B3D266E6AB1003711AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gioco_di_ruolo;
+			productName = Gioco_di_ruolo;
+			productReference = 39477B3F266E6AB1003711AA /* Gioco_di_ruolo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39477B37266E6AB1003711AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					39477B3E266E6AB1003711AA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 39477B3A266E6AB1003711AA /* Build configuration list for PBXProject "Gioco_di_ruolo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = 39477B36266E6AB1003711AA;
+			productRefGroup = 39477B40266E6AB1003711AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39477B3E266E6AB1003711AA /* Gioco_di_ruolo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39477B3B266E6AB1003711AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39477B54266FACDF003711AA /* guerriero.cpp in Sources */,
+				39477B4E266E88A7003711AA /* oggetto.cpp in Sources */,
+				39477B602670BDD4003711AA /* cura.cpp in Sources */,
+				39477B5A266FBCD8003711AA /* arma.cpp in Sources */,
+				39477B51266E8AE3003711AA /* mago.cpp in Sources */,
+				39477B4B266E6B06003711AA /* personaggio.cpp in Sources */,
+				39477B43266E6AB1003711AA /* main.cpp in Sources */,
+				39477B5D2670BA62003711AA /* pergamena.cpp in Sources */,
+				39477B57266FAEBC003711AA /* chierico.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39477B44266E6AB1003711AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		39477B45266E6AB1003711AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		39477B47266E6AB1003711AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39477B48266E6AB1003711AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39477B3A266E6AB1003711AA /* Build configuration list for PBXProject "Gioco_di_ruolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39477B44266E6AB1003711AA /* Debug */,
+				39477B45266E6AB1003711AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39477B46266E6AB1003711AA /* Build configuration list for PBXNativeTarget "Gioco_di_ruolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39477B47266E6AB1003711AA /* Debug */,
+				39477B48266E6AB1003711AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39477B37266E6AB1003711AA /* Project object */;
+}

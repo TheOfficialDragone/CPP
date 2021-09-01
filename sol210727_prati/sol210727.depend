@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1626361843 source:c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\main.cpp
+	<iostream>
+	<vector>
+	"Negozio.h"
+	"Vestito.h"
+	"Pantalone.h"
+	"Camicia.h"
+	"Gonna.h"
+	"Cliente.h"
+
+1626357476 source:c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\src\vestito.cpp
+	"Vestito.h"
+
+1626361601 c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\include\vestito.h
+	<iostream>
+	"Cliente.h"
+
+1626361765 source:c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\src\negozio.cpp
+	"Negozio.h"
+
+1626361765 c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\include\negozio.h
+	<vector>
+	"Vestito.h"
+
+1626359863 source:c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\src\pantalone.cpp
+	"Pantalone.h"
+
+1626361601 c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\include\pantalone.h
+	<Vestito.h>
+
+1626360079 source:c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\src\camicia.cpp
+	"Camicia.h"
+
+1626361305 c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\include\camicia.h
+	<Vestito.h>
+
+1626360163 source:c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\src\gonna.cpp
+	"Gonna.h"
+
+1626361305 c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\include\gonna.h
+	<Vestito.h>
+
+1626361635 c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\include\cliente.h
+	<iostream>
+	<vector>
+
+1626361914 source:c:\users\prati\google drive (pratiandrea@gmail.com)\pasw\esami\2021\210727\sol210727\src\cliente.cpp
+	"Cliente.h"
+	"Negozio.h"
+
